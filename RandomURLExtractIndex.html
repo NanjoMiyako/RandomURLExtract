@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+<title>ランダムURL抽出</title>
+<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<script src="jquery-3.3.1.min.js"></script>
+
+
+<div id="tab_DataImport" class="tab">
+URLデータロード<br>
+<a id="URL1" href="" target="_blank"></a><br/>
+<a id="URL2" href="" target="_blank"></a><br/>
+<a id="URL3" href="" target="_blank"></a><br/>
+<a id="URL4" href="" target="_blank"></a><br/>
+<a id="URL5" href="" target="_blank"></a><br/>
+<a id="URL6" href="" target="_blank"></a><br/>
+<a id="URL7" href="" target="_blank"></a><br/>
+<a id="URL8" href="" target="_blank"></a><br/>
+<a id="URL9" href="" target="_blank"></a><br/>
+<a id="URL10" href="" target="_blank"></a><br/>
+
+<span id="ImportDataFlg"></span><br>
+ロードするファイルを選択:<br>
+<input type="file" id="fileOnDataImport"><br>
+<button type="button" id="ImportDataOnDataImportTab" style="margin-top:10px;" onclick="ImportDataOnDataImportTab()">
+URLデータをロード
+</button><br>
+<button type="button" id="RandomURLExtractBtn" style="margin-top:10px;" onclick="RandomURLExtract()">
+ランダムにURLを10個出力
+</button><br>
+</div>
+
+
+
+<script type="text/javascript" src="RandomURLExtractJS.js">
+</script>
+
+
+</body>
+</html>
